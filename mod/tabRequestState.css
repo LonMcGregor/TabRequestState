@@ -1,0 +1,9 @@
+.tab[data-state="Requesting"] {
+    background: red !important;
+}
+.tab[data-state="PageLoading"] {
+    background: cyan !important;
+}
+.tab[data-state="Complete"] {
+    background: green !important;
+}

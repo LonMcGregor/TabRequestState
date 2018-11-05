@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Tab request state",
+    "version": "1.0.0",
+    "author": "Léon McGregor",
+    "description": "Get tab request state",
+    "homepage_url": "https://forum.vivaldi.net/topic/31509/tab-loading-state-styling/",
+
+    "permissions": [
+        "webRequest",
+        "<all_urls>",
+        "tabs"
+    ],
+
+    "externally_connectable": {
+"ids": ["mpognobbkildjkofajifpdfhcoklimli"]
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tabrequeststate",
+  "version": "1.0.0",
+  "description": "Get tab request state",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "Leon McGregor",
+  "license": "MIT"
+}
